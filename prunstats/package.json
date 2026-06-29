@@ -1,0 +1,19 @@
+{
+  "name": "reports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "bun build src/main.ts --outdir www --target browser --sourcemap=external",
+    "serve": "python3 -m http.server -d www 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.9.2",
+    "webpack": "^5.101.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
